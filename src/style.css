@@ -455,15 +455,16 @@ article.testimonial {
     margin-top: 0;
 }
 
-.testimonial__body {
+.glide__slide p {
     color: #333;
     font-size: .95rem;
     font-family: 'RobotoLight', Arial, sans-serif;
     font-weight: 300;
     font-style: normal;
+    line-height: 1.15625;
 }
 
-.testimonial__blockquote {
+.glide__slide {
     color: #333;
     display: flex;
     flex-direction: column;
@@ -472,15 +473,20 @@ article.testimonial {
     font-family: 'RobotoLight', Arial, sans-serif;
     font-weight: 300;
     font-style: normal;
+    padding: 10px 20px;
 }
 
 .testimonial__blockquote div:nth-of-type(1) {
     margin-bottom: 10px;
 }
 
-.testimonial__blockquote i {
+.glide__slide div i {
     font-size: 16px;
     color: #008c28;
+}
+.glide__slide div {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .testimonial__blockquote footer {
@@ -492,8 +498,8 @@ article.testimonial {
     content: '';
 }
 
-.testimonial__blockquote p {
-    flex-grow: 1;
+.glide__slide p:nth-of-type(2) {
+    margin-top: auto !important;
     order: 2;
 }
 
